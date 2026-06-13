@@ -1,16 +1,16 @@
-/* Header */
+/* Headers */
 .nav-bar {
-    background-color: #f4f4f4;
+    background-color: #141424;
     list-style-type: none;
     overflow: hidden;
     padding: 0px;
     margin: 0px;
 }
-ul {
+.nav-bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #333333;
+    background-color: #141424;
     display: flex;
 }
 .nav-bar a {
@@ -20,13 +20,23 @@ ul {
     text-decoration: none;
 }
 .nav-bar a:hover {
-    background-color: #111111;
+    background-color: #141424;
 }
-/* Footer */
+/* Body of pages */
+body {
+    background-color: #141424;
+    color: #C9C9D4;
+}
+a {
+    color: #5A5ACC;
+    text-decoration: none;
+}
+
+/* Footers */
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #f4f4f4;
-    border-top: 1px solid #ccc;
+    background-color: #141424;
+    border-top: 1px solid #141424;
     margin-top: 20px;
 }

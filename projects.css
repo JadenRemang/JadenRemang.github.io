@@ -4,3 +4,32 @@ h1 {
     margin-bottom: 0.2em;
     text-align: center;
 }
+/*Project Grids*/
+.project-grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+/*Project Card*/
+.project-cards {
+    background-color: #272745;
+    padding: 20px;
+    border-radius: 8px;
+}
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+}
+.tech-tags li {
+    background-color: #5A5ACC;
+    padding: 4px 10px;
+    border-radius: 8px;
+}
+.project-cards a{
+    color: #5A5ACC;
+    text-decoration: none;
+}

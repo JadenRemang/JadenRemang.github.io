@@ -1,0 +1,15 @@
+/* Body */
+.h1 {
+    text-align: right;
+    color: #333;
+}
+
+/* Contact Links */
+.contact-links {
+    color: #5A5ACC;
+}
+
+.contact-links a {
+    color: #5A5ACC;
+    text-decoration: none;
+}
